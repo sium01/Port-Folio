@@ -1,22 +1,28 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
 import {
   SiJavascript,
+  SiTypescript,
   SiMui,
   SiReact,
+  
   SiTailwindcss,
-  SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
+  SiC,
+  SiCplusplus,
+  SiPython,
+  SiExpress,
+
+  
   SiMongodb,
   SiMysql,
-  SiTypescript,
+ 
   SiGithub,
   
   SiFirebase,
   SiDocker,
-  SiExpress,
+  
+ 
   
  
 } from "react-icons/si";
@@ -48,78 +54,75 @@ export const TechstackList = [
   },
   
   {
-    _id: 7,
+    _id: 6,
     name: "React JS",
     icon: SiReact,
   },
+  
   {
-    _id: 8,
-    name: "Nextjs",
-    icon: TbBrandNextjs,
-  },
-  {
-    _id: 9,
+    _id: 7,
     name: "React MUI",
     icon: SiMui,
   },
   {
-    _id: 10,
+    _id: 8,
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
   {
-    _id: 11,
-    name: "Figma ",
-    icon: SiFigma,
+    _id: 9,
+    name: "C ",
+    icon: SiC,
   },
   {
-    _id: 12,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
+    _id: 10,
+    name: "C++ ",
+    icon: SiCplusplus,
   },
+  {
+    _id: 11,
+    name: "Python ",
+    icon: SiPython,
+  },
+  {
+    _id:12,
+    name:"java", 
+ icon: FaJava,
+  },
+  
   {
     _id: 13,
-    name: "Photoshop ",
-    icon: SiAdobephotoshop,
-  },
-  {
-    _id: 14,
-    name: "React Native ",
-    icon: SiReact,
-  },
-  {
-    _id: 15,
     name: "Node JS ",
     icon: FaNodeJs,
   },
   {
-    _id: 16,
+    _id: 14,
     name: "Express JS ",
     icon: SiExpress,
   },
   
   {
-    _id: 18,
+    _id: 15,
     name: "Mongodb ",
     icon: SiMongodb,
   },
   {
-    _id: 19,
+    _id: 16,
     name: "SQL ",
     icon: SiMysql,
   },
   {
-    _id: 20,
+    _id: 27,
     name: "Firebase ",
     icon: SiFirebase,
   },
   {
-    _id: 21,
+    _id: 18,
     name: "Git / Github ",
     icon: SiGithub,
   },
   {
-    _id: 22,
+    _id: 19,
     name: "Docker ",
     icon: SiDocker,
   },

@@ -19,18 +19,16 @@ const Techstack = () => {
         </motion.div>
         <div className="row">
           {TechstackList.map((tech) => (
-            <motion.div key={tech._id} initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
-              <div className="col-md-3">
-                <div className="card m-2">
-                  <div className="card-content">
-                    <div className="card-body">
-                      <div className="media d-flex justify-content-center">
-                        <div className="align-self-center">
-                          <tech.icon className="tech-icon" />
-                        </div>
-                        <div className="media-body">
-                          <h5>{tech.name}</h5>
-                        </div>
+            <motion.div key={tech._id} className="col-md-3 col-sm-6 col-xs-12" initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
+              <div className="card m-2">
+                <div className="card-content">
+                  <div className="card-body">
+                    <div className="media d-flex justify-content-center">
+                      <div className="align-self-center">
+                        <tech.icon className="tech-icon" />
+                      </div>
+                      <div className="media-body">
+                        <h5>{tech.name}</h5>
                       </div>
                     </div>
                   </div>
