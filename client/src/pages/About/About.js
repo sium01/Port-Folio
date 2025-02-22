@@ -11,14 +11,27 @@ const About = () => {
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
               <h1>About me</h1>
               <p>
-                I am a Full Stack Developer with a passion for creating
-                innovative web applications. I am a quick learner and I am
-                constantly looking for new technologies to learn. I have
-                experience in developing web applications using MERN stack. I
-                have also worked on projects using React, Redux, Node.js,
-                Express.js, MongoDB, and Firebase. I have a keen interest in
-                learning new technologies and I am always looking for new
-                opportunities to learn and grow.  
+              I am a  MERN Stack Developer with expertise in React.js,
+Node.js, Express.js, and MongoDB. I build high-performance,
+scalable, and user-friendly web applications that solve real-world
+problems. My focus is on clean code, optimized architecture, and
+seamless user experience.
+With a deep understanding of frontend & backend technologies,
+I have developed and deployed multiple full-stack applications,
+integrating modern UI/UX practices and robust backend solutions.<br/>
+My expertise includes:<br/>
+✔ Full-Stack Web Development – From frontend to backend,
+ensuring seamless performance.<br/>
+
+✔ API Development & Integrations – Building secure and efficient
+backend systems.<br/>
+✔ Database Optimization – Structuring MongoDB for performance
+and scalability.<br/>
+✔ Performance-Driven Development – Writing optimized and
+scalable code.<br/>
+I am actively seeking remote or on-site opportunities where I can
+contribute my skills, work with innovative teams, and build cuttingedge web solutions.<br/>
+Let’s connect and create something amazing!
 
               </p>
 

@@ -22,19 +22,19 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2023 - present"
+              date="2023 - Present"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+                Problem Solving
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                HackerRank
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+               Problem Solving With Dynamic Programming language and OOP.
+              I Solve Problem With C,C++,Python,Java,Javascript etc.    
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -43,19 +43,19 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2020 - 2022"
+              date="2023 - Present"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+              Problem Solving
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Leetcode
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+              Problem Solving With Dynamic Programming language and OOP.
+              I Solve Problem With C,C++,Python,Java,Javascript etc.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -64,21 +64,46 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="2018 - 2020"
+              date="2023(October)-2023(December)"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full Stack Developer
+               Problem-Solving
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                xyz, pvt ltd
+                Codeforces
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+              Problem Solving With Dynamic Programming language and OOP.
+              I Solve Problem With C,C++,Python,Java,Javascript etc.
               </p>
             </VerticalTimelineElement>
+
+
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="2023(August)-2024(August)"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Digital Marketer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Hello-World
+              </h4>
+              <p>
+                Creative ads campaign,Buissnes-Management,SEO,Buyer Success,  Project
+                Management, Team Leading.
+              </p>
+            </VerticalTimelineElement>
+
           </VerticalTimeline>
         </div>
       </div>

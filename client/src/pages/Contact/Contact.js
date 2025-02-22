@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "./Contact.css";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -60,12 +59,18 @@ const Contact = () => {
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
-                      <h6>
+                      <h6 align="center">
                         Contact With
-                        <BsLinkedin color="blue" size={30} className="ms-2" />
-                        <BsGithub color="black" size={30} className="ms-2" />
-                        <BsFacebook color="blue" size={30} className="ms-2" />
+                        
                       </h6>
+ <p align="center">
+ <a href="https://x.com/sium99122"><img alt="twiter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+ <a href="https://www.instagram.com/nazmul_hasan_siam01/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+ <a href="https://www.linkedin.com/in/siam69/"><img alt="linkedin" src="https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+ <a href="https://github.com/sium01" ><img src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github&logoColor=white"alt="github"/></a>                     
+ <a href="sohailhazarysiam@gmail.com" ><img alt="Gmail" src="https://img.shields.io/badge/Mail-C5221F?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+ <a href="https://leetcode.com/u/siam01f/"><img alt="leetcode" src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
+ </p>                  
                     </div>
 
                     <div className="row px-3 mb-4">

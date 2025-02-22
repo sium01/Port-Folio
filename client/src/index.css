@@ -6,3 +6,7 @@ box-sizing: border-box;
 
 
 }
+#dark{
+ background-color:rgb(7, 226, 98);
+ color:rgb(0, 8, 12) ;
+}

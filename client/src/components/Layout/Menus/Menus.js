@@ -2,7 +2,11 @@ import React from "react";
 import "./Menus.css";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+
+import { BiSolidLogInCircle } from "react-icons/bi";
 import {
+
+
   FcAbout,
   FcBiotech,
   FcBusinessContact,
@@ -114,6 +118,21 @@ const Menus = ({ toggle }) => {
                     Contact
                   </Link>
                 </div>
+                <div className="nav-link">
+                  <Link
+                    to="login"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                  >
+                    <BiSolidLogInCircle />
+                    Login
+                  </Link>
+                </div>
+
+
+            
               </div>
             </div>
           </motion.div>
@@ -201,6 +220,21 @@ const Menus = ({ toggle }) => {
                   <FcBusinessContact />
                 </Link>
               </div>
+              <div className="nav-link">
+                <Link
+                  to="login"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={100}
+                >
+                  <BiSolidLogInCircle />
+                </Link>
+              </div>
+             
+
+              
+
             </div>
           </div>
         </>

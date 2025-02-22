@@ -1,0 +1,19 @@
+{
+  "name": "port-folio",
+  "version": "1.0.0",
+  "description": "It's a MERN stacke based Portfolio Website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sium01",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.10.1",
+    "nodeman": "^1.1.2"
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.txt";
+import Resume from "../../assets/docs/siam_resume.pdf"; // Ensure the file path is correct
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import "./Home.css";
@@ -26,14 +26,13 @@ const Home = () => {
         </div>
         <div className="container home-content">
           <motion.div initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
-            <h2>Hi 👋 I'm a</h2>
+            <h2>Hi 👋 I'm SOHAIL_HAZARY_SIAM!<br/>Passionate a</h2>
             <h1>
               <Typewriter
                 options={{
                   strings: [
                     "FullStack Developer!",
                     "Mern Stack Developer!",
-                    "SOHAIL_HAZARY_SIUM!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -45,13 +44,13 @@ const Home = () => {
             <div className="home-buttons">
               <a
                 className="btn btn-hire"
-                href="https://api.whatsapp.com/send?phone=1234567890"
+                href="https://wa.me/qr/XLZH4MTU7Y36C1"
                 rel="noreferrer"
                 target="_blank"
               >
                 Hire Me
               </a>
-              <a className="btn btn-cv" href={Resume} download="Siam_resume.pdf">
+              <a className="btn btn-cv" href={Resume} download="siam_resume.pdf">
                 My Resume
               </a>
             </div>

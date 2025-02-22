@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineMenuFold } from "react-icons/ai";
+import { BiSolidLogInCircle } from "react-icons/bi";
 import { Link } from "react-scroll";
 import {
   FcAbout,
@@ -141,6 +142,20 @@ const MobileNav = () => {
                     Contact
                   </Link>
                 </div>
+                <div className="nav-link">
+                  <Link
+                    to="login"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={100}
+                    onClick={handleMenuClick}
+                  >
+                    <BiSolidLogInCircle />
+                    Login
+                  </Link>
+                </div>
+
               </div>
             </div>
           </div>
