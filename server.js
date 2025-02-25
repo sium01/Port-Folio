@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
-
+const path=require("path");
 //dotenv configuartion
 dotenv.config();
 
@@ -9,17 +9,16 @@ dotenv.config();
 const app = express();
 
 //midlewares
-app.use(cors({
-  origin: 'http://localhost:3000', // ফ্রন্টএন্ড URL ঠিক করুন
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
-
+app.use(express.static(path.join(__dirname, "./client/build")));
 //routes
 app.use("/api/v1/portfolio", require("./routes/route"));
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+}
+);
 //port
 const PORT = process.env.PORT || 5000;
 
