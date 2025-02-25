@@ -1,12 +1,11 @@
-const express=require("express");
-const {sendEmailController}=require('../controllers/controllers');
+const express = require("express");
+const { sendEmailController } = require("../controllers/controllers");
 
 //router object
-const router=express.Router();
+const router = express.Router();
 
 //routes
-router.post("/sendEmail",sendEmailController);
+router.post("/sendEmail", sendEmailController);
 
-
-//export
-module.exports=router;
+// /export
+module.exports = router;
